@@ -52,7 +52,10 @@
     },
     "showCitations": true
   },
-  "general": {
+  "general":
+    "checkpointing": {
+      "enabled": true
+    },
     "preferredEditor": "neovim",
     "sessionRetention": {
       "enabled": true
@@ -63,8 +66,11 @@
     "format": "text"
   },
   "experimental": {
-    "skills": true,
+    "enableAgents": true,
     "plan": true
+  },
+  "skills": {
+    "enabled": true
   },
   "tools": {
     "approvalMode": "default"
