@@ -7,3 +7,5 @@
 !configs
 !configs/settings
 !configs/settings/*.json
+
+!.pre-commit-config.yaml
