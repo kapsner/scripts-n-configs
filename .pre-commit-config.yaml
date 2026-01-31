@@ -17,3 +17,4 @@ repos:
     rev: v0.2.0
     hooks:
     - id: check-commit-msg
+    - id: recreate-changelog
