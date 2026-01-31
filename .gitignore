@@ -1,0 +1,9 @@
+/*
+/*/*
+
+!.gitignore
+!scripts
+
+!configs
+!configs/settings
+!configs/settings/*.json
