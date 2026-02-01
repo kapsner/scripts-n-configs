@@ -52,7 +52,7 @@
     },
     "showCitations": true
   },
-  "general":
+  "general": {
     "checkpointing": {
       "enabled": true
     },
