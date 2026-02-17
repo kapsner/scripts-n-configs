@@ -15,6 +15,12 @@ alias dcd='docker compose down'
 alias dps='docker ps -a'
 alias dcs='docker compose stop'
 
+# git
+alias gst='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gd='git diff'
+
 # https://github.com/uker-troi-lab/commit_hooks
 alias bmp='pre-commit run --hook-stage post-commit bump-version'
 EOF
