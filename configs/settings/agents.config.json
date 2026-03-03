@@ -1,0 +1,19 @@
+{
+	"nanocoder": {
+		"providers": [
+			{
+				"name": "Ollama",
+				"baseUrl": $OLLAMA_BASE_URL,
+				"apiKey": $OLLAMA_API_KEY,
+				"models": ["llama3.3:70b", "mistral-large:123b", "gpt-oss:120b", "qwen3-vl:8b"]
+			},
+			{
+				"name": "Gemini",
+				"sdkProvider": "google",
+				"baseUrl": "https://generativelanguage.googleapis.com/v1beta",
+				"apiKey": $GEMINI_API_KEY,
+				"models": ["gemini-3-flash-preview", "gemini-3-pro-preview"]
+			}
+    ]
+  }
+}
