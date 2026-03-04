@@ -53,7 +53,8 @@
       "enableLoadingPhrases": false,
       "screenReader": false
     },
-    "showCitations": true
+    "showCitations": true,
+    "loadingPhrases": "off"
   },
   "general": {
     "checkpointing": {
@@ -63,7 +64,9 @@
     "sessionRetention": {
       "enabled": true
     },
-    "previewFeatures": true
+    "previewFeatures": true,
+    "defaultApprovalMode": "default",
+    "enableAutoUpdate": false
   },
   "output": {
     "format": "text"
