@@ -1,0 +1,14 @@
+[models]
+recent = "openai:gpt-oss:120b"
+
+# for ollama-deployment using "api/chat/completions" endpoint,
+# use "openai" as modelprovider (and OPENAI_API_KEY)
+[models.providers.openai]
+models = [
+    "llama3.3:70b",
+    "mistral-large:123b",
+    "gpt-oss:120b",
+    "qwen3-vl:8b",
+]
+api_key_env = "OPENAI_API_KEY"
+base_url = "http://base.url/api"

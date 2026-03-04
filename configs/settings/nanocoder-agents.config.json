@@ -2,7 +2,7 @@
 	"nanocoder": {
 		"providers": [
 			{
-				"name": "Ollama",
+				"name": "Self-hosted-Ollama",
 				"baseUrl": "$OLLAMA_BASE_URL",
 				"apiKey": "$OLLAMA_API_KEY",
 				"models": ["llama3.3:70b", "mistral-large:123b", "gpt-oss:120b", "qwen3-vl:8b"]
