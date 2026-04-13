@@ -28,4 +28,4 @@ alias bmp='pre-commit run --hook-stage post-commit bump-version'
 EOF
 
 # reveal2mp4
-alias r2mp4='reveal2mp4 --browser ~/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome -j 6 --no-sandbox --no-setuid-sandbox'
+alias r2mp4='reveal2mp4 --browser ~/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --no-sandbox --no-setuid-sandbox'
